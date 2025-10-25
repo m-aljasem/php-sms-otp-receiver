@@ -1,0 +1,26 @@
+{
+  "name": "m-aljasem/php-sms-otp-receiver",
+  "description": "A lightweight one-file PHP OTP receiver for developers and WordPress Digits plugin testing.",
+  "type": "project",
+  "keywords": ["otp", "sms", "testing", "gateway", "digits", "php"],
+  "homepage": "https://github.com/m-aljasem/php-otp-receiver",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohamad AlJasem",
+      "email": "mohamad@aljasem.eu.org",
+      "homepage": "https://aljasem.eu.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "files": ["otp.php"]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0.x-dev"
+    }
+  }
+}
